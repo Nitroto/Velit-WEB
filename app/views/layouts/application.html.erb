@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%= render "partials/header" %>
+</head>
+<body>
+
+<div class="navbar">
+  <div class="container">
+    <%= render "partials/navbar" %>
+  </div>
+</div>
+
+<div class="container">
+  <main>
+    <%= yield %>
+  </main>
+</div>
+
+<div class="footer">
+  <div class="container">
+    <%= render "partials/footer" %>
+  </div>
+</div>
+
+</body>
+</html>
