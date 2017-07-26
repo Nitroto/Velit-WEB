@@ -10,15 +10,27 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require bootstrap
  *= require_tree .
  *= require_self
  */
 
-#language-bar> li{
-    padding: 12.5px 5px;
-}
-#language-bar> li > a {
-    padding: 0;
+.nav > li > a {
+    font-size: 1.2em;
 }
 
+.navbar-inner {
+    min-height: 0px;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 55px;
+    height: 40px;
+    padding-top: 0;
+    margin-bottom: 1em;
+}
+
+#language-bar > li > a {
+    padding-left: 5px;
+    padding-right: 5px;
+}
