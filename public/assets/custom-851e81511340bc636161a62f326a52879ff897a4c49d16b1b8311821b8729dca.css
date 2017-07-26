@@ -1,0 +1,20 @@
+.nav > li > a {
+    font-size: 1.2em;
+}
+
+.navbar-inner {
+    min-height: 0px;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 55px;
+    height: 40px;
+    padding-top: 0;
+    margin-bottom: 1em;
+}
+
+#language-bar > li > a {
+    padding-left: 5px;
+    padding-right: 5px;
+}
