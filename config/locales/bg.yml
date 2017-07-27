@@ -30,4 +30,23 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 bg:
-  hello: "Здравей Свят"
+  controllers:
+    application:
+    home:
+    pages:
+  mailers:
+  views:
+    home:
+    pages:
+    partials:
+      navbar:
+        about: "За нас"
+        transports: "Транспорт"
+        transport_types:
+          maritme: 'Морски транспорт'
+          air: 'Въздушен транспорт'
+          ground: 'Сухопътен транспорт'
+        contacts: "Контакти"
+        links: "Връзки"
+        partners: "Партьори"
+        useful_links: "Полезно"
