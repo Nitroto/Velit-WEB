@@ -18,3 +18,64 @@
     padding-left: 5px;
     padding-right: 5px;
 }
+
+.fit-to-container {
+    height: 100%;
+    width: 100%;
+    object-fit: contain
+}
+
+.divider-10 {
+    width: 100%;
+    min-height: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+.divider {
+    height: 1px;
+    width:100%;
+    display:block; /* for use on default inline elements like span */
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+
+.align-baseline {
+    vertical-align: baseline !important;
+}
+
+.align-top {
+    vertical-align: top !important;
+}
+
+.align-middle {
+    vertical-align: middle !important;
+}
+
+.align-bottom {
+    vertical-align: bottom !important;
+}
+
+.align-text-bottom {
+    vertical-align: text-bottom !important;
+}
+
+.align-text-top {
+    vertical-align: text-top !important;
+}
+
+.align-text-cell {
+    padding-top: 2rem;
+}
+
+.justify-text{
+    text-align:justify;
+    text-justify:inter-word;
+}
+
+footer{
+    background-color: #f8f8f8;
+}
