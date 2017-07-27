@@ -1,22 +1,16 @@
 <div class="row">
   <div class="container  col-md-3">
     <div class="panel panel-default">
-      <div class="panel-heading"><strong>Велит Куриер Офис:</strong></div>
+      <div class="panel-heading"><strong><%= I18n.translate('views.pages.contacts.contacts_panel.company') %></strong></div>
       <div class="panel-body">
-        <p>гр. София - 1540,<br>
-          Аерогара София, бл.2,<br>
-          Тел: 07001 6336<br>
-          Тел: +359 2 937-34-28;<br>
-          Факс: +359 2 945-94-45<br>
-          Email: office@velitcourier.com
-        </p>
+        <%= raw I18n.translate('views.pages.contacts.contacts_panel.contacts') %>
       </div>
     </div>
   </div>
 
   <div class="container col-md-6">
     <iframe width="550"
-            height="300"
+            height="400"
             frameborder="0"
             style="border:0"
             src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAFe7afgTxlMn7kI2VPTIKrl-e9gJDvxwY&q=Аерогара+София+-+блок+2,+1528+Летище+София,+София"
@@ -24,12 +18,12 @@
     </iframe>
   </div>
 
-  <div class="container col-md-3" style="padding: 10px;">
+  <div class="container col-md-3" style="margin-top: -.6rem;">
     <form accept-charset="UTF-8" action="/" method="post">
-      Your name:<br/><%= text_field(:name, 'Name') %> <br/>
-      E-mail:<br/><%= email_field(:email, 'Email') %> <br/>
-      Topic:<br/><%= text_field(:topic, 'Topic') %> <br/>
-      Message:<br/><%= text_area_tag(:message, 'Hi, nice site', size: '5x6') %><br/>
+      <%= I18n.translate('views.pages.contacts.form.topics.name') %><br/><%= text_field(:name, 'Name') %> <br/>
+      <%= I18n.translate('views.pages.contacts.form.topics.email') %><br/><%= email_field(:email, 'Email') %> <br/>
+      <%= I18n.translate('views.pages.contacts.form.topics.topic') %>:<br/><%= text_field(:topic, 'Topic') %> <br/>
+      <%= I18n.translate('views.pages.contacts.form.topics.message') %><br/><%= text_area_tag(:message, 'Hi, nice site', size: '5x5') %><br/>
     </form>
   </div>
 </div>

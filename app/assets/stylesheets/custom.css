@@ -56,6 +56,16 @@
     width: 100%;
 }
 
+table tr td img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain
+}
+
 footer{
     background-color: #f8f8f8;
+    position: relative;
+    clear:both;
+    padding-top:20px;
+    padding-bottom: 20px;
 }

@@ -31,6 +31,7 @@
 
 bg:
   company: 'Велит Куриер'
+  slogan: 'получавате бързо'
   controllers:
     application:
     home:
@@ -39,6 +40,30 @@ bg:
   views:
     home:
     pages:
+      about:
+        topic: 'За нас'
+      contacts:
+        topic: 'Контакти'
+        contacts_panel:
+          company: 'Велит Куриер Офис:'
+          contacts: '<p>гр. София - 1540, Аерогара София, блок 2<br>Тел: 07001 6336<br>Тел: +359 2 937-34-28<br>Факс: +359 2 945-94-45<br>E-mail: office@velitcourier.com'
+        form:
+          topics:
+            name: 'Вашето име:'
+            email: 'E-mail:'
+            topic: 'Относно:'
+            message: 'Съобщение:'
+      links:
+        topic: 'Връзки'
+        customs: 'Агенция митници'
+        info_customs: 'Информационен митнически портал'
+        nra: 'Национална агенция по приходите'
+        register_vat: 'Публичен регистър на фирмите по ЗДДС'
+        airport_sofia: 'Летище София'
+      partners:
+        topic: 'Партньори'
+      useful:
+        topic: 'Полезна информация'
     partials:
       header:
       navbar:

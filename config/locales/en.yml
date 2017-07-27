@@ -30,7 +30,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  company: 'Velit Courier'
+  company: 'Velit Logistic Group'
+  slogan: 'you get it fast'
   controllers:
     application:
     home:
@@ -39,6 +40,30 @@ en:
   views:
     home:
     pages:
+      about:
+        topic: 'About us'
+      contacts:
+        topic: 'Contacts'
+        contacts_panel:
+          company: 'Velit Logistic Group Office:'
+          contacts: '<p>Sofia Airport block 2, 1540 Sofia<br>Phone: 07001 6336<br>Phone: +359 2 937-34-28<br>Fax: +359 2 945-94-45<br>E-mail: office@velitcourier.com'
+        form:
+          topics:
+            name: 'Your name:'
+            email: 'E-mail:'
+            topic: 'Topic:'
+            message: 'Message:'
+      links:
+        topic: 'Links'
+        customs: 'Customs Agency'
+        info_customs: 'Information Customs Portal'
+        nra: 'National Revenue Agency'
+        register_vat: 'Public register of VAT companies'
+        airport_sofia: 'Sofia Airport'
+      partners:
+        topic: 'Partners'
+      useful:
+        topic: 'Useful Information'
     partials:
       header:
       navbar:
