@@ -30,6 +30,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 bg:
+  company: 'Велит Куриер'
   controllers:
     application:
     home:
@@ -39,6 +40,7 @@ bg:
     home:
     pages:
     partials:
+      header:
       navbar:
         about: "За нас"
         transports: "Транспорт"
@@ -50,3 +52,4 @@ bg:
         links: "Връзки"
         partners: "Партьори"
         useful_links: "Полезно"
+      footer:

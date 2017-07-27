@@ -30,6 +30,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  company: 'Velit Courier'
   controllers:
     application:
     home:
@@ -39,6 +40,7 @@ en:
     home:
     pages:
     partials:
+      header:
       navbar:
         about: "About"
         transports: "Transports"
@@ -50,3 +52,4 @@ en:
         links: "Links"
         partners: "Partners"
         useful_links: "Useful"
+      footer:
