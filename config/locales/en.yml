@@ -60,21 +60,22 @@ en:
         nra: 'National Revenue Agency'
         register_vat: 'Public register of VAT companies'
         airport_sofia: 'Sofia Airport'
-      partners:
-        topic: 'Partners'
       useful:
         topic: 'Useful Information'
     partials:
       header:
       navbar:
-        about: "About"
-        transports: "Transports"
+        about: 'About'
+        transports: 'Transports'
         transport_types:
           maritme: 'Maritme transport'
           air: 'Air transport'
           ground: 'Ground transport'
-        contacts: "Contacts"
-        links: "Links"
-        partners: "Partners"
-        useful_links: "Useful"
-      footer:
+        contacts: 'Contacts'
+        links: 'Links'
+        partners: 'Partners'
+        useful_links: 'Useful'
+        footer:
+    partners:
+      title: 'Partners'
+

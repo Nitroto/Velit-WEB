@@ -60,21 +60,21 @@ bg:
         nra: 'Национална агенция по приходите'
         register_vat: 'Публичен регистър на фирмите по ЗДДС'
         airport_sofia: 'Летище София'
-      partners:
-        topic: 'Партньори'
       useful:
         topic: 'Полезна информация'
     partials:
       header:
       navbar:
-        about: "За нас"
-        transports: "Транспорт"
+        about: 'За нас'
+        transports: 'Транспорт'
         transport_types:
           maritme: 'Морски транспорт'
           air: 'Въздушен транспорт'
           ground: 'Сухопътен транспорт'
-        contacts: "Контакти"
-        links: "Връзки"
-        partners: "Партьори"
-        useful_links: "Полезно"
+        contacts: 'Контакти'
+        links: 'Връзки'
+        partners: 'Партьори'
+        useful_links: 'Полезно'
       footer:
+    partners:
+      title: 'Партьори'

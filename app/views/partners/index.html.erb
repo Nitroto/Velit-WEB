@@ -1,0 +1,29 @@
+<h1><%= I18n.translate('views.partners.title') %></h1>
+<div>
+  <table>
+    <tbody>
+    <% if @partners.each do |partner| %>
+        <% if @count % 3 === 0 && @count != (@partners.count - 1) %>
+            <tr>
+        <% end %>
+        <% @count+= 1 %>
+
+        <td class="col-md-4">
+          <%= link_to partner.home, target: :_blank do %>
+              <%= image_tag("partners/#{partner.name.downcase}.svg") %>
+          <% end %>
+        </td>
+
+        <% if @count % 3 === 0 || @count === (@partners.count - 1) %>
+            </tr>
+        <% end %>
+
+    <% end %>
+    <% end %>
+    </tbody>
+  </table>
+</div>
+
+
+
+
