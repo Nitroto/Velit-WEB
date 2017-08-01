@@ -85,6 +85,7 @@ GEM
     arel (8.0.0)
     bcrypt (3.1.11)
     bindex (0.5.0)
+    bluecloth (2.2.0)
     builder (3.2.3)
     byebug (9.0.6)
     cancan (1.6.10)
@@ -281,6 +282,7 @@ DEPENDENCIES
   activeadmin!
   activeadmin-translate!
   activemodel-serializers-xml
+  bluecloth
   byebug
   cancan
   capybara (~> 2.13)

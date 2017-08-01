@@ -17,15 +17,14 @@ ActiveAdmin.register News do
     f.actions
   end
 
-  # show do |model|
-  #   panel 'Globalized Model' do
-  #     translate_attributes_table_for model do
-  #       row :title
-  #       row :body do |p|
-  #         BlueCloth.new(p.teaser).to_html.html_safe
-  #       end
-  #     end
-  #   end
-  # end
-
+  show do |model|
+    panel 'Globalized Model' do
+      translate_attributes_table_for model do
+        row :title
+        row :body do |p|
+          BlueCloth.new(p).to_html
+        end
+      end
+    end
+  end
 end
