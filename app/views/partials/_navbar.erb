@@ -27,7 +27,7 @@
           </li>
           <li><%= link_to I18n.translate('views.partials.navbar.contacts'), pages_contacts_path %></li>
           <li><%= link_to I18n.translate('views.partials.navbar.links'), pages_links_path %></li>
-          <li><%= link_to I18n.translate('views.partials.navbar.partners'), partners_index_path %></li>
+          <li><%= link_to I18n.translate('views.partials.navbar.partners'), partners_path %></li>
           <li><%= link_to I18n.translate('views.partials.navbar.useful_links'), pages_useful_path %></li>
         </ul>
 
@@ -37,9 +37,7 @@
             <li><%= link_to image_tag('bg.png', :style => 'border: 1px solid black'), locale: :bg %></li>
           </ul>
         </div>
-
       </div><!-- /.navbar-collapse -->
-
     </div><!-- /.container-fluid -->
   </nav>
 

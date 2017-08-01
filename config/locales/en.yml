@@ -32,6 +32,9 @@
 en:
   company: 'Velit Logistic Group'
   slogan: 'you get it fast'
+  time:
+    formats:
+      date_month_year_concise: '%d %b %y'
   controllers:
     application:
     home:
@@ -39,6 +42,12 @@ en:
   mailers:
   views:
     home:
+    news:
+      index:
+        no_news: 'There are no published news.'
+        continued: 'Read more'
+        posted_on: 'Posted on: '
+      show:
     pages:
       about:
         topic: 'About us'

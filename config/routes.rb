@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
-  get 'partners/index'
-
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
   scope "(:locale)", locale: /en|bg/ do
+    resources :news
+    resources :partners
     get 'pages/about'
     get 'pages/contacts'
     get 'pages/links'

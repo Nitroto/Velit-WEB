@@ -32,6 +32,9 @@
 bg:
   company: 'Велит Куриер'
   slogan: 'получавате бързо'
+  time:
+    formats:
+      date_month_year_concise: '%d/%m/%y'
   controllers:
     application:
     home:
@@ -39,6 +42,12 @@ bg:
   mailers:
   views:
     home:
+    news:
+      index:
+        no_news: 'Няма публикувани новини.'
+        continued: 'Виж още'
+        posted_on: 'Публикувана на: '
+      show:
     pages:
       about:
         topic: 'За нас'

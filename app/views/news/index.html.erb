@@ -1,0 +1,16 @@
+<% if @news.each do |n| %>
+    <div>
+      <h2><%= link_to n.title, n %></h2>
+      <div>
+        <%= truncate(n.body, :omission => ' ...', :length => 200) %>
+        <%= link_to I18n.translate('views.news.index.continued'), n %>
+      </div>
+
+      <div>
+        <p><%= "#{I18n.translate('views.news.index.posted_on')}#{I18n.localize n.created_at, format: :date_month_year_concise}" %></p>
+        <p>
+      </div>
+    </div>
+<% end.empty? %>
+    <h2><%= I18n.translate('views.news.index.no_news') %></h2>
+<% end %>
