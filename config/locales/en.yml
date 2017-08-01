@@ -48,6 +48,7 @@ en:
         continued: 'Read more'
         posted_on: 'Posted on: '
       show:
+        back_button: 'Back'
     pages:
       about:
         topic: 'About us'

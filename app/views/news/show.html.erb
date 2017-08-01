@@ -2,4 +2,5 @@
   <h1><%= @n.title %></h1>
   <small><%= I18n.localize @n.created_at, format: :date_month_year_concise %></small>
   <p><%= @n.body %></p>
+  <%= link_to 'Back', url_for(:back) %>
 </div>

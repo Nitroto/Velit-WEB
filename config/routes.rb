@@ -5,11 +5,10 @@ Rails.application.routes.draw do
   scope "(:locale)", locale: /en|bg/ do
     resources :news
     resources :partners
-    get 'pages/about'
-    get 'pages/contacts'
-    get 'pages/links'
-    get 'pages/partners'
-    get 'pages/useful'
+    get 'about', to: 'pages#about'
+    get 'contacts', to: 'pages#contacts'
+    get 'links', to: 'pages#links'
+    get 'useful', to: 'pages#useful'
     root :to => 'home#index'
   end
 

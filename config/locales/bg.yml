@@ -48,6 +48,7 @@ bg:
         continued: 'Виж още'
         posted_on: 'Публикувана на: '
       show:
+        back_button: 'Назад'
     pages:
       about:
         topic: 'За нас'

@@ -5,7 +5,8 @@ class PartnersController < ApplicationController
   end
 
   private
+
   def partner_params
-    params.require(:partner).permit(:name)
+    params.require(:partner).permit(:name, :home, :logo)
   end
 end
