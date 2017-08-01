@@ -6,4 +6,14 @@ ActiveAdmin.register News do
     column 'Text', :body
     actions
   end
+
+  inputs do
+    form do |f|
+      f.translate_inputs do |t|
+        t.input :title
+        t.input :body
+      end
+    end
+  end
+
 end

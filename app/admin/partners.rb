@@ -7,13 +7,4 @@ ActiveAdmin.register Partner do
     column :logo
     actions
   end
-
-  # form do |f|
-  #   f.inputs 'Partners' do
-  #     f.input :name
-  #     f.input :home
-  #     f.input :image, as: :file
-  #   end
-  #   f.buttons
-  # end
 end
