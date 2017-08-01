@@ -88,3 +88,7 @@ bg:
       footer:
     partners:
       title: 'Партьори'
+  active_admin:
+    translate:
+      bg: 'Български'
+      en: 'Английски'

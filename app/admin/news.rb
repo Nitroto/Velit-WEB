@@ -7,13 +7,25 @@ ActiveAdmin.register News do
     actions
   end
 
-  inputs do
-    form do |f|
+  form do |f|
+    f.inputs do
       f.translate_inputs do |t|
         t.input :title
         t.input :body
       end
     end
+    f.actions
   end
+
+  # show do |model|
+  #   panel 'Globalized Model' do
+  #     translate_attributes_table_for model do
+  #       row :title
+  #       row :body do |p|
+  #         BlueCloth.new(p.teaser).to_html.html_safe
+  #       end
+  #     end
+  #   end
+  # end
 
 end

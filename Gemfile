@@ -27,7 +27,7 @@ gem 'devise'
 gem 'cancan' # or cancancan
 gem 'draper'
 gem 'pundit'
-gem 'activeadmin-translate'
+gem 'activeadmin-translate', github: 'twintags/activeadmin-translate'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
