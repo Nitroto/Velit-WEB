@@ -11,7 +11,7 @@ ActiveAdmin.register News do
     f.inputs do
       f.translate_inputs do |t|
         t.input :title
-        t.input :body, input_html = { class: 'tinymce'}
+        t.input :body
       end
     end
     f.actions
