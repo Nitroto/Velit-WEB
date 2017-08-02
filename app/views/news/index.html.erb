@@ -1,8 +1,8 @@
 <% if @news.each do |n| %>
     <div>
-      <h2><%= link_to n.title, n %></h2>
+      <h2><%= link_to raw(n.title), n %></h2>
       <div>
-        <%= truncate(n.body, :omission => ' ...', :length => 200) %>
+        <%= truncate(raw(n.body), :omission => ' ...', :length => 200) %>
         <%= link_to I18n.translate('views.news.index.continued'), n %>
       </div>
 

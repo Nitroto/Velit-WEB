@@ -140,6 +140,8 @@ en:
       block: "List"
       grid: "Grid"
       blog: "Blog"
+    news:
+      globalized_model: 'Globalized Model'
     translate:
       bg: 'Bulgarian'
       en: 'English'

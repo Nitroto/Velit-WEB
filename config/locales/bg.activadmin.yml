@@ -116,6 +116,8 @@ bg:
       block: "Списък"
       grid: "Грид"
       blog: "Блог"
+    news:
+      globalized_model: 'Globalized Model'
     translate:
       bg: 'Български'
       en: 'Английски'
