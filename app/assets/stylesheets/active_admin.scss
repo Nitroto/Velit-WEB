@@ -14,8 +14,10 @@
 // For example, to change the default status-tag color:
 //
 //   .status_tag { background: #6090DB; }
+
+@import "active_admin/translate";
+@import 'admin_lib/modal';
+
 a, a:link, a:visited {
   text-decoration: none;
 }
-
-@import "active_admin/translate";

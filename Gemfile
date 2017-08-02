@@ -19,6 +19,9 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+gem 'globalize', git: 'https://github.com/globalize/globalize'
+gem 'activemodel-serializers-xml'
+
 # Use ActiveAdmin
 gem 'activeadmin', github: 'activeadmin'
 # Use ActiveAdmin has_secure_password
@@ -27,6 +30,7 @@ gem 'devise'
 gem 'cancan' # or cancancan
 gem 'draper'
 gem 'pundit'
+gem 'activeadmin_tinymce', github: 'KernelCorp/active_admin_tinymce'
 gem 'activeadmin-translate', github: 'twintags/activeadmin-translate'
 gem 'bluecloth'
 
@@ -45,8 +49,6 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'carrierwave', '~> 1.0'
-gem 'globalize', git: 'https://github.com/globalize/globalize'
-gem 'activemodel-serializers-xml'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

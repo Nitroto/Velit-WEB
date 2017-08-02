@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
+  mount ActiveAdmin::Tinymce::Engine => '/', as: 'admin_editor'
 
   scope "(:locale)", locale: /en|bg/ do
     resources :news

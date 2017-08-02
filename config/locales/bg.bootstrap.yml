@@ -1,20 +1,20 @@
 bg:
   breadcrumbs:
     application:
-      root: "Index"
+      root: "Начално"
     pages:
-      pages: "Pages"
+      pages: "Страници"
   helpers:
-    actions: "Actions"
+    actions: "Действия"
     links:
-      back: "Back"
-      cancel: "Cancel"
-      confirm: "Are you sure?"
-      destroy: "Delete"
-      new: "New"
-      edit: "Edit"
+      back: "Назад"
+      cancel: "Отказ"
+      confirm: "Сигурни ли сте?"
+      destroy: "Изтриване"
+      new: "Нов"
+      edit: "Редактиране"
     titles:
-      edit: "Edit %{model}"
-      save: "Save %{model}"
-      new: "New %{model}"
-      delete: "Delete %{model}"
+      edit: "Редактиране на %{model}"
+      save: "Запазване на %{model}"
+      new: "Създай нов %{model}"
+      delete: "Изтрий %{model}"
