@@ -2,5 +2,5 @@
   <h1><%= raw(@n.title) %></h1>
   <small><%= I18n.localize @n.created_at, format: :date_month_year_concise %></small>
   <%= raw(@n.body) %>
-  <%= link_to 'Back', url_for(:back) %>
+  <%= link_to 'Back', news_path %>
 </div>

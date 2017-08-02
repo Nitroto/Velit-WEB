@@ -56,7 +56,7 @@ bg:
         topic: 'Контакти'
         contacts_panel:
           company: 'Велит Куриер Офис:'
-          contacts: '<p>гр. София - 1540, Аерогара София, блок 2<br>Тел: 07001 6336<br>Тел: +359 2 937-34-28<br>Факс: +359 2 945-94-45<br>E-mail: office@velitcourier.com'
+          contacts: '<p>гр. София - 1540, Аерогара София, блок 2<br>Тел: 07001 6336<br>Тел: +359 2 937-34-28<br>Факс: +359 2 945-94-45<br>E-mail: <a href="mailto:office@velitcourier.com" target="_top">office@velitcourier.com</a>'
         form:
           topics:
             name: 'Вашето име:'
@@ -85,6 +85,7 @@ bg:
         links: 'Връзки'
         partners: 'Партьори'
         useful_links: 'Полезно'
+        news: 'Новини'
       footer:
     partners:
       title: 'Партьори'

@@ -4,8 +4,9 @@ Rails.application.routes.draw do
   mount ActiveAdmin::Tinymce::Engine => '/', as: 'admin_editor'
 
   scope "(:locale)", locale: /en|bg/ do
-    resources :news
     resources :partners
+    get 'news', to: 'news#index'
+    get ':id/news', to: 'news#show'
     get 'about', to: 'pages#about'
     get 'contacts', to: 'pages#contacts'
     get 'links', to: 'pages#links'
