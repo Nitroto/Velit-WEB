@@ -4,7 +4,8 @@
 
 $(document).ready ->
   tinyMCE.init
-    mode : "specific_textareas"
-    theme: "modern"
-    selector: "textarea:not(.mceNoEditor)"
+    theme: 'modern'
+    selector: 'textarea#mce-editor'
+    plugins: 'noneditable'
+    noneditable_noneditable_class: "mce-non-editable"
   return

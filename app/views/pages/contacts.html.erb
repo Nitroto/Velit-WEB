@@ -23,7 +23,8 @@
       <%= I18n.translate('views.pages.contacts.form.topics.name') %><br/><%= text_field(:name, 'Name') %> <br/>
       <%= I18n.translate('views.pages.contacts.form.topics.email') %><br/><%= email_field(:email, 'Email') %> <br/>
       <%= I18n.translate('views.pages.contacts.form.topics.topic') %><br/><%= text_field(:topic, 'Topic') %> <br/>
-      <%= I18n.translate('views.pages.contacts.form.topics.message') %><br/><%= text_area_tag(:message, 'Hi, nice site', size: '5x5', class: 'mceNoEditor') %><br/>
+      <%= I18n.translate('views.pages.contacts.form.topics.message') %><br/><%= text_area_tag(:message, 'Hi, nice site', size: '5x5', class: 'mce-non-editable') %><br/>
+      <%= f.submit "Create" %>
     </form>
   </div>
 </div>

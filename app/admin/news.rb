@@ -15,7 +15,7 @@ ActiveAdmin.register News do
     f.inputs do
       f.translate_inputs do |t|
         t.input :title
-        t.input :body
+        t.input :body, input_html: {id: 'mce-editor'}
       end
     end
     f.actions
