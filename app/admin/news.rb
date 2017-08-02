@@ -2,8 +2,12 @@ ActiveAdmin.register News do
   permit_params :title, :body, translations_attributes: [:locale, :id, :title, :body]
   menu :label => 'News'
   index do
-    column :title
-    column 'Text', :body
+    column :title do |p|
+      BlueCloth.new(p.title).to_html.html_safe
+    end
+    column 'Text', :body do |p|
+      BlueCloth.new(p.body).to_html.html_safe
+    end
     actions
   end
 
@@ -20,7 +24,9 @@ ActiveAdmin.register News do
   show do |model|
     panel I18n.translate('active_admin.news.globalized_model') do
       translate_attributes_table_for model do
-        row :title
+        row :title do |p|
+          BlueCloth.new(p.title).to_html.html_safe
+        end
         row :body do |p|
           BlueCloth.new(p.body).to_html.html_safe
         end
