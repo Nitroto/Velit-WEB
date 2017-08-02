@@ -57,12 +57,6 @@ en:
         contacts_panel:
           company: 'Velit Logistic Group Office:'
           contacts: '<p>Sofia Airport block 2, 1540 Sofia<br>Phone: 07001 6336<br>Phone: +359 2 937-34-28<br>Fax: +359 2 945-94-45<br>E-mail: <a href="mailto:office@velitcourier.com" target="_top">office@velitcourier.com</a>'
-        form:
-          topics:
-            name: 'Your name:'
-            email: 'E-mail:'
-            topic: 'Topic:'
-            message: 'Message:'
       links:
         topic: 'Links'
         customs: 'Customs Agency'
@@ -74,6 +68,14 @@ en:
         topic: 'Useful Information'
     partials:
       header:
+      message:
+        form:
+          labels:
+            name: 'Your name:'
+            email: 'E-mail:'
+            subject: 'Subject:'
+            message: 'Message:'
+          button: 'Send'
       navbar:
         about: 'About'
         transports: 'Transports'

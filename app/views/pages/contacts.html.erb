@@ -1,7 +1,8 @@
 <div class="row">
   <div class="container  col-md-3">
     <div class="panel panel-default">
-      <div class="panel-heading"><strong><%= I18n.translate('views.pages.contacts.contacts_panel.company') %></strong></div>
+      <div class="panel-heading"><strong><%= I18n.translate('views.pages.contacts.contacts_panel.company') %></strong>
+      </div>
       <div class="panel-body">
         <%= raw I18n.translate('views.pages.contacts.contacts_panel.contacts') %>
       </div>
@@ -18,14 +19,8 @@
     </iframe>
   </div>
 
-  <div class="container col-md-3" style="margin-top: -.6rem;">
-    <form accept-charset="UTF-8" action="/" method="post">
-      <%= I18n.translate('views.pages.contacts.form.topics.name') %><br/><%= text_field(:name, 'Name') %> <br/>
-      <%= I18n.translate('views.pages.contacts.form.topics.email') %><br/><%= email_field(:email, 'Email') %> <br/>
-      <%= I18n.translate('views.pages.contacts.form.topics.topic') %><br/><%= text_field(:topic, 'Topic') %> <br/>
-      <%= I18n.translate('views.pages.contacts.form.topics.message') %><br/><%= text_area_tag(:message, 'Hi, nice site', size: '5x5', class: 'mce-non-editable') %><br/>
-      <%= f.submit "Create" %>
-    </form>
-  </div>
+  <!--<div class="container col-md-3" style="margin-top: -.6rem;">-->
+    <!--< render 'partials/message-form' %>-->
+  <!--</div>-->
 </div>
 
