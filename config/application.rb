@@ -11,24 +11,24 @@ module VelitWeb
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.1
     config.i18n.default_locale = :en
-    config.i18n.available_locales = [:en, :bg]
+    config.i18n.available_locales = %i[en bg]
     config.assets.paths << "#{Rails}/vendor/assets/fonts"
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
 
     config.action_mailer.smtp_settings = {
-        address: "smtp.gmail.com",
+        address: 'smtp.gmail.com',
         port: 587,
-        domain: "<example.tld>",
-        user_name: "<username>",
-        password: "<password>",
+        domain: '<example.tld>',
+        user_name: '<username>',
+        password: '<password>',
         authentication: :plain,
         enable_starttls_auto: true
     }
 
     config.action_mailer.default_url_options = {
-        host: "yourdomain.tld"
+        host: 'yourdomain.tld'
     }
   end
 end
