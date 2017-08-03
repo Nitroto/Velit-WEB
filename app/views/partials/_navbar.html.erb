@@ -15,21 +15,22 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li><%= link_to I18n.translate('views.partials.navbar.about'), about_path %></li>
+          <li><%= link_to t('views.partials.navbar.about'), about_path %></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><%= I18n.translate('views.partials.navbar.transports') %>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              <%= t('views.partials.navbar.transports') %>
               <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><%= link_to I18n.translate('views.partials.navbar.transport_types.maritme'), root_path %></li>
-              <li><%= link_to I18n.translate('views.partials.navbar.transport_types.air'), root_path %></li>
-              <li><%= link_to I18n.translate('views.partials.navbar.transport_types.ground'), root_path %></li>
+              <li><%= link_to t('views.partials.navbar.transport_types.maritme'), root_path %></li>
+              <li><%= link_to t('views.partials.navbar.transport_types.air'), root_path %></li>
+              <li><%= link_to t('views.partials.navbar.transport_types.ground'), root_path %></li>
             </ul>
           </li>
-          <li><%= link_to I18n.translate('views.partials.navbar.contacts'), contacts_path %></li>
-          <li><%= link_to I18n.translate('views.partials.navbar.links'), links_path %></li>
-          <li><%= link_to I18n.translate('views.partials.navbar.partners'), partners_path %></li>
-          <li><%= link_to I18n.translate('views.partials.navbar.useful_links'), useful_path %></li>
-          <li><%= link_to I18n.translate('views.partials.navbar.news'), news_path %></li>
+          <li><%= link_to t('views.partials.navbar.contacts'), contacts_path %></li>
+          <li><%= link_to t('views.partials.navbar.links'), links_path %></li>
+          <li><%= link_to t('views.partials.navbar.partners'), partners_path %></li>
+          <li><%= link_to t('views.partials.navbar.useful_links'), useful_path %></li>
+          <li><%= link_to t('views.partials.navbar.news'), news_path %></li>
         </ul>
 
         <div class="navbar-right">

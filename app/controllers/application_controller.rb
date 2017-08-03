@@ -3,6 +3,8 @@ class ApplicationController < ActionController::Base
 
   before_action :set_locale
 
+  helper_method :send_message
+
   def default_url_options
     {locale: I18n.locale}
   end
@@ -10,6 +12,10 @@ class ApplicationController < ActionController::Base
   def set_locale
     I18n.locale = params[:locale] || I18n.default_locale
     Rails.application.routes.default_url_options[:locale] = I18n.locale
+  end
+
+  def send_message
+    @message = Message.new
   end
 
   # def set_locale

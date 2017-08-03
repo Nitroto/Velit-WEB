@@ -1,25 +1,25 @@
-<%= form_for @message, url: contact_path do |message_form| %>
+<%= form_for send_message, url: contacts_path do |message_form| %>
     <fieldset>
       <div class="field">
-        <%= I18n.translate('views.partials.message.form.labels.name') %>
+        <%= t('views.partials.message.form.labels.name') %>
         <br/>
         <%= message_form.text_field :name %>
       </div>
       <br/>
       <div class="field">
-        <%= I18n.translate('views.partials.message.form.labels.email') %>
+        <%= t('views.partials.message.form.labels.email') %>
         <br/>
         <%= message_form.email_field :email %>
       </div>
       <br/>
       <div class="field">
-      <%= I18n.translate('views.partials.message.form.labels.subject') %>
+      <%= t('views.partials.message.form.labels.subject') %>
         <br/>
         <%= message_form.text_field :subject %>
       </div>
       <br/>
       <div class="field">
-        <%= I18n.translate('views.partials.message.form.labels.message') %>
+        <%= t('views.partials.message.form.labels.message') %>
         <br/>
         <%= message_form.text_area :content, size: '5x5', class: 'mce-non-editable'%>
       </div>

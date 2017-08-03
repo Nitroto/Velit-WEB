@@ -10,6 +10,9 @@
     <%= render "partials/navbar" %>
   </div>
 </div>
+<div class="container">
+  <%= render 'partials/flash-messages' if !flash.empty? %>
+</div>
 
 <div class="container">
   <main>

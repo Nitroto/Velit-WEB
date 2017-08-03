@@ -5,8 +5,8 @@ Rails.application.routes.draw do
 
   scope "(:locale)", locale: /en|bg/ do
     resources :partners
-    get 'contact', to: 'messages#new', as: 'contact'
-    post 'contact', to: 'messages#create'
+    # get 'contact', to: 'messages#new'
+    post 'contacts', to: 'messages#create'
     get 'news', to: 'news#index'
     get ':id/news', to: 'news#show'
     get 'about', to: 'pages#about'

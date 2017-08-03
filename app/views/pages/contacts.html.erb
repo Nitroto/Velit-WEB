@@ -1,10 +1,10 @@
 <div class="row">
   <div class="container  col-md-3">
     <div class="panel panel-default">
-      <div class="panel-heading"><strong><%= I18n.translate('views.pages.contacts.contacts_panel.company') %></strong>
+      <div class="panel-heading"><strong><%= t('views.pages.contacts.contacts_panel.company') %></strong>
       </div>
       <div class="panel-body">
-        <%= raw I18n.translate('views.pages.contacts.contacts_panel.contacts') %>
+        <%= raw t('views.pages.contacts.contacts_panel.contacts') %>
       </div>
     </div>
   </div>
@@ -19,8 +19,8 @@
     </iframe>
   </div>
 
-  <!--<div class="container col-md-3" style="margin-top: -.6rem;">-->
-    <!--< render 'partials/message-form' %>-->
-  <!--</div>-->
+  <div class="container col-md-3" style="margin-top: -.6rem;">
+    <%= render 'partials/message-form' %>
+  </div>
 </div>
 

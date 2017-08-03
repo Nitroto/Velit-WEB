@@ -38,7 +38,12 @@ en:
   controllers:
     application:
     home:
+    messages:
+      success: 'Your messages has been sent.'
+      error: 'An error occurred while delivering this message.'
+    news:
     pages:
+    partners:
   mailers:
   views:
     home:
