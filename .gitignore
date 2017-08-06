@@ -13,6 +13,9 @@
 # Ignore generated assets
 public/assets/
 
+#Ignore app secrets
+config/secrets_backup.yml
+
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*

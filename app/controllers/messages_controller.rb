@@ -6,14 +6,16 @@ class MessagesController < ApplicationController
   def create
     @message = Message.new(message_params)
 
-    if @message.valid?
+    # respond_to do |format|
+
+    if verify_recaptcha(model: @message) && @message.valid?
       MessageMailer.new_message(@message).deliver
       flash[:alert] = t('controllers.messages.success')
     else
       flash[:alert] = t('controllers.messages.error')
     end
-
     redirect_to contacts_path
+    # end
   end
 
   private

@@ -24,7 +24,11 @@
         <%= message_form.text_area :content, size: '5x5', class: 'mce-non-editable'%>
       </div>
     </fieldset>
+
+    <%= recaptcha_tags %>
+
     <fieldset>
+
       <div class="field">
         <%= message_form.submit I18n.translate('views.partials.message.form.button') %>
       </div>
