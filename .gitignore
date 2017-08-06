@@ -14,7 +14,7 @@
 public/assets/
 
 #Ignore app secrets
-config/secrets_backup.yml
+config/secret_keys.yml
 
 # Ignore all logfiles and tempfiles.
 /log/*
