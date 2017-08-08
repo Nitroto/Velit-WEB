@@ -47,6 +47,14 @@ en:
   mailers:
   views:
     home:
+      transports: 'Transports'
+      transport_types:
+        maritme: '<span>Maritme</span> transport'
+        air: '<span>Air</span> transport'
+        ground: '<span>Ground</span> transport'
+        medical: 'Transportation of <span>medical equipment</span>'
+      sample: 'Sample text describing the type of transport'
+      more: 'View more'
     news:
       index:
         no_news: 'There are no published news.'

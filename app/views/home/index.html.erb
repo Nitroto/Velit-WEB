@@ -30,38 +30,39 @@
 </section>
 <div class="divider-10"></div>
 <section>
-  <div class="divider"></div>
-  <div class="row">
-    <div class="col-sm-8 align-text-cell justify-text">Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия.
-      Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски букви
-      и ги разбърква, за да напечата с тях книга с примерни шрифтове. Този начин не само е оцелял повече от 5 века, но е
-      навлязъл и в публикуването на електронни издания като е запазен почти без промяна. Популяризиран е през 60те
-      години на 20ти век със издаването на Letraset листи, съдържащи Lorem Ipsum пасажи, популярен е и в наши дни във
-      софтуер за печатни издания като Aldus PageMaker, който включва различни версии на Lorem Ipsum.
-    </div>
-    <div class="col-sm-4"><%= image_tag('transports.jpg', class: 'fit-to-container') %></div>
+  <h2><%= t 'views.home.transports' %></h2>
+  <div class="grid">
+    <figure class="effect-apollo">
+      <%= image_tag 'transports/1' %>
+      <figcaption>
+        <h2><%= raw t 'views.home.transport_types.air'%></h2>
+        <p><%= t 'views.home.sample'%></p>
+        <%= link_to t('views.home.more'), root_path %>
+      </figcaption>
+    </figure>
+    <figure class="effect-apollo">
+      <%= image_tag 'transports/2', style: 'background-color: white;' %>
+      <figcaption>
+        <h2><%= raw t 'views.home.transport_types.maritme'%></h2>
+        <p><%= t 'views.home.sample'%></p>
+        <%= link_to t('views.home.more'), root_path %>
+      </figcaption>
+    </figure>
+    <figure class="effect-apollo">
+      <%= image_tag 'transports/3', style: 'background-color: white;'%>
+      <figcaption>
+        <h2><%= raw t 'views.home.transport_types.ground'%></h2>
+        <p><%= t 'views.home.sample'%></p>
+        <%= link_to t('views.home.more'), root_path %>
+      </figcaption>
+    </figure>
+    <figure class="effect-apollo">
+      <%= image_tag 'transports/4'%>
+      <figcaption>
+        <h2><%= raw t 'views.home.transport_types.medical'%></h2>
+        <p><%= t 'views.home.sample'%></p>
+        <%= link_to t('views.home.more'), root_path %>
+      </figcaption>
+    </figure>
   </div>
-  <div class="divider"></div>
-  <div class="row">
-    <div class="col-sm-8 align-text-cell justify-text">Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия.
-      Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски букви
-      и ги разбърква, за да напечата с тях книга с примерни шрифтове. Този начин не само е оцелял повече от 5 века, но е
-      навлязъл и в публикуването на електронни издания като е запазен почти без промяна. Популяризиран е през 60те
-      години на 20ти век със издаването на Letraset листи, съдържащи Lorem Ipsum пасажи, популярен е и в наши дни във
-      софтуер за печатни издания като Aldus PageMaker, който включва различни версии на Lorem Ipsum.
-    </div>
-    <div class="col-sm-4"><%= image_tag('transports.jpg', class: 'fit-to-container') %></div>
-  </div>
-  <div class="divider"></div>
-  <div class="row">
-    <div class="col-sm-8 align-text-cell justify-text">Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия.
-      Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски букви
-      и ги разбърква, за да напечата с тях книга с примерни шрифтове. Този начин не само е оцелял повече от 5 века, но е
-      навлязъл и в публикуването на електронни издания като е запазен почти без промяна. Популяризиран е през 60те
-      години на 20ти век със издаването на Letraset листи, съдържащи Lorem Ipsum пасажи, популярен е и в наши дни във
-      софтуер за печатни издания като Aldus PageMaker, който включва различни версии на Lorem Ipsum.
-    </div>
-    <div class="col-sm-4"><%= image_tag('transports.jpg', class: 'fit-to-container') %></div>
-  </div>
-  <div class="divider"></div>
 </section>

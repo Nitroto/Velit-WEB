@@ -47,6 +47,14 @@ bg:
   mailers:
   views:
     home:
+      transports: 'Транспорт'
+      transport_types:
+        maritme: '<span>Морски</span> транспорт'
+        air: '<span>Въздушен</span> транспорт'
+        ground: '<span>Сухопътен</span> транспорт'
+        medical: 'Транспорт на <span>медицинско оборудване</span>'
+      sample: 'Примерен текст описващ вида транспорт'
+      more: 'Виж още'
     news:
       index:
         no_news: 'Няма публикувани новини.'
