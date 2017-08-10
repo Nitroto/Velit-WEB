@@ -70,16 +70,16 @@ bg:
         contacts_panel:
           company: 'Велит Куриер Офис:'
           contacts: '<p>гр. София - 1540, Аерогара София, блок 2<br>Тел: 07001 6336<br>Тел: +359 2 937-34-28<br>Факс: +359 2 945-94-45<br>E-mail: <a href="mailto:office@velitcourier.com" target="_top">office@velitcourier.com</a>'
-
-      links:
-        topic: 'Връзки'
-        customs: 'Агенция митници'
-        info_customs: 'Информационен митнически портал'
-        nra: 'Национална агенция по приходите'
-        register_vat: 'Публичен регистър на фирмите по ЗДДС'
-        airport_sofia: 'Летище София'
       useful:
-        topic: 'Полезна информация'
+        info:
+          topic: 'Полезна информация'
+        links:
+          topic: 'Полезни връзки'
+          customs: 'Агенция митници'
+          info_customs: 'Информационен митнически портал'
+          nra: 'Национална агенция по приходите'
+          register_vat: 'Публичен регистър на фирмите по ЗДДС'
+          airport_sofia: 'Летище София'
     partials:
       header:
       message:
@@ -98,9 +98,8 @@ bg:
           air: 'Въздушен транспорт'
           ground: 'Сухопътен транспорт'
         contacts: 'Контакти'
-        links: 'Връзки'
         partners: 'Партьори'
-        useful_links: 'Полезно'
+        useful: 'Полезна информация'
         news: 'Новини'
       footer:
     partners:

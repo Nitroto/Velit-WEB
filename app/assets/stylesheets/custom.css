@@ -84,7 +84,6 @@
     font-size: 68.5%;
 }
 
-
 /*-----------------*/
 /***** Apollo *****/
 /*-----------------*/
@@ -97,8 +96,8 @@ figure.effect-apollo img {
     opacity: 0.95;
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
     transition: opacity 0.35s, transform 0.35s;
-    -webkit-transform: scale3d(1.05,1.05,1);
-    transform: scale3d(1.05,1.05,1);
+    -webkit-transform: scale3d(1.05, 1.05, 1);
+    transform: scale3d(1.05, 1.05, 1);
 }
 
 figure.effect-apollo figcaption::before {
@@ -107,12 +106,12 @@ figure.effect-apollo figcaption::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(255,255,255,0.5);
+    background: rgba(255, 255, 255, 0.5);
     content: '';
     -webkit-transition: -webkit-transform 0.6s;
     transition: transform 0.6s;
-    -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
-    transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+    -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -100%, 0);
+    transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -100%, 0);
 }
 
 figure.effect-apollo p {
@@ -135,13 +134,13 @@ figure.effect-apollo h2 {
 
 figure.effect-apollo:hover img {
     opacity: 0.6;
-    -webkit-transform: scale3d(1,1,1);
-    transform: scale3d(1,1,1);
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
 }
 
 figure.effect-apollo:hover figcaption::before {
-    -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
-    transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+    -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0);
+    transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0);
 }
 
 figure.effect-apollo:hover p {
@@ -154,7 +153,7 @@ figure.effect-apollo:hover p {
     font-size: 1.2em;
 }
 
-.high-enough{
+.high-enough {
     min-height: 65rem;
 }
 
@@ -192,8 +191,8 @@ figure.effect-apollo:hover p {
 
 .divider {
     height: 1px;
-    width:100%;
-    display:block; /* for use on default inline elements like span */
+    width: 100%;
+    display: block; /* for use on default inline elements like span */
     margin: 9px 0;
     overflow: hidden;
     background-color: #e5e5e5;
@@ -203,26 +202,26 @@ figure.effect-apollo:hover p {
     padding-top: 2rem;
 }
 
-.justify-text{
-    text-align:justify;
-    text-justify:inter-word;
+.justify-text {
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .text-field {
     width: 100%;
 }
 
-table tr td img{
+table tr td img {
     height: 100%;
     width: 100%;
     object-fit: contain
 }
 
-footer{
+footer {
     background-color: #f8f8f8;
     position: relative;
-    clear:both;
-    padding-top:20px;
+    clear: both;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 

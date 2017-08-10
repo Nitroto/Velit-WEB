@@ -11,7 +11,6 @@ Rails.application.routes.draw do
     get ':id/news', to: 'news#show'
     get 'about', to: 'pages#about'
     get 'contacts', to: 'pages#contacts'
-    get 'links', to: 'pages#links'
     get 'useful', to: 'pages#useful'
     root :to => 'home#index'
   end
