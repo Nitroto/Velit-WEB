@@ -14,7 +14,7 @@
   <%= render 'partials/flash-messages' if !flash.empty? %>
 </div>
 
-<div class="container high-enough">
+<div class="high-enough">
   <main>
     <%= yield %>
   </main>
@@ -23,9 +23,7 @@
 <div class="divider-10"></div>
 
 <div class="footer">
-  <div class="container">
-    <%= render "partials/footer" %>
-  </div>
+  <%= render "partials/footer" %>
 </div>
 
 </body>

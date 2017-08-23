@@ -225,3 +225,16 @@ footer {
     padding-bottom: 20px;
 }
 
+#about-us {
+    background-color: #3498db;
+    color: #f8f8f8;
+}
+
+#about-us h1 {
+    color: #f8f8f8;
+}
+
+.center-cell {
+    margin: 2rem;
+}
+
